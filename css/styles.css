@@ -1,0 +1,21 @@
+@font-face {
+    font-family: "Poppins";
+    src: url("../fonts/Poppins-Regular.ttf");
+}
+@import url("./colors.css");
+
+*{
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+    font-size: 16px;
+}
+body{
+    font-family: "Poppins";
+    font-size: 1.125rem;
+}
+.main-section{
+    display: flex;
+    flex-direction: column;
+}
