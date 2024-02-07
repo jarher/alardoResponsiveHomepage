@@ -23,17 +23,19 @@ Users should be able to:
 - See hover states for all interactive elements on the page
 
 ### Screenshot
-
+mobile
 ![](./screenshots/mobile.png)
 ![](./screenshots/mobile-dark-mode.png)
 ![](./screenshots/mobile-menu.png)
+tablet
 ![](./screenshots/tablet-dark-mode.png)
+desktop
 ![](./screenshots/desktop-light-mode.png)
 ![](./screenshots/desktop-dark-mode.png)
 
 ### Links
 
-- Live Site URL: [https://jarher.github.io/bookmarkLandingPage/]
+- Live Site URL: [https://jarher.github.io/alardoResponsiveHomepage/]
 
 ## My process
 
