@@ -49,5 +49,4 @@ Users should be able to:
 ## Author
 
 - Website - [https://github.com/jarher]
-- Frontend Mentor - [https://www.frontendmentor.io/profile/jarher]
 
