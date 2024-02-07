@@ -23,13 +23,13 @@ Users should be able to:
 - See hover states for all interactive elements on the page
 
 ### Screenshot
-mobile
+### mobile
 ![](./screenshots/mobile.png)
 ![](./screenshots/mobile-dark-mode.png)
 ![](./screenshots/mobile-menu.png)
-tablet
+### tablet
 ![](./screenshots/tablet-dark-mode.png)
-desktop
+### desktop
 ![](./screenshots/desktop-light-mode.png)
 ![](./screenshots/desktop-dark-mode.png)
 
