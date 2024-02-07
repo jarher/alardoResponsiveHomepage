@@ -43,7 +43,7 @@ header {
   bottom: 0;
   width: 65%;
   z-index: 1;
-  background-color: var(--White);
+  background-color: var(--Pale-gray);
   transition: all 0.2s ease-in;
   transform: translateX(100%);
 }

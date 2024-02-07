@@ -20,6 +20,7 @@ body {
   font-family: "Poppins";
   font-size: 1.125rem;
   transition: background 0.2s ease-in;
+  background-color: var(--Pale-gray);
 }
 main {
   margin: 0 26px;
