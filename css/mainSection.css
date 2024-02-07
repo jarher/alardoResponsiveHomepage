@@ -1,0 +1,120 @@
+.main-section {
+  display: flex;
+  flex-direction: column;
+}
+.main-texts {
+  order: 2;
+  margin-top: 100px;
+}
+.first-text {
+  font-size: clamp(0.875rem, 10vw, 1.125rem);
+  font-weight: bold;
+  color: var(--Dark-gray);
+}
+.main-texts h1 {
+  font-size: clamp(2.125rem, 10vw, 4.525rem);
+  color: var(--Dark-blue);
+  font-weight: bold;
+}
+.main-description {
+  font-size: clamp(1rem, 10vw, 1.125rem);
+  color: var(--Dark-gray);
+  font-weight: 500;
+  margin: 3% 0;
+}
+.main-links-wrapper,
+.requirements-wrapper {
+  display: flex;
+  flex-direction: row;
+  width: auto;
+  align-items: center;
+}
+
+.get-started-button {
+  background-color: var(--Blue);
+  border: none;
+  outline: none;
+  width: 50%;
+  padding: 15px 0;
+  border-radius: 10px;
+}
+.get-started-button a {
+  color: var(--White);
+  font-weight: 700;
+  font-size: 0.9rem;
+}
+.live-link-wrapper {
+  margin-left: 10%;
+}
+.live-demo-link {
+  color: var(--Blue);
+  font-weight: bold;
+  font-size: 0.9rem;
+}
+.underline {
+  background-color: var(--Blue);
+  height: 2px;
+  display: block;
+}
+.requirements-wrapper {
+  margin-top: 35px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.requirements {
+  display: flex;
+  gap: 10px;
+  width: 100%;
+}
+.check-wrapper {
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--Green);
+  border-radius: 50%;
+}
+.check-wrapper span {
+  color: var(--White);
+  font-size: 1rem;
+}
+.main-image {
+  order: 1;
+}
+@media (min-width: 600px) {
+  .main-section {
+    padding: 25px;
+  }
+  .main-links-wrapper {
+    width: 450px;
+  }
+  .requirements-wrapper {
+    flex-direction: row;
+    gap: 15px;
+    width: 525px;
+  }
+  .get-started-button a,
+  .live-demo-link {
+    font-size: 1.125rem;
+  }
+}
+@media (min-width: 1024px) {
+  .main-section {
+    flex-direction: row;
+    gap: 50px;
+    padding: 0;
+  }
+  .main-texts {
+    order: 1;
+    margin-top: 0;
+  }
+  .main-description{
+    margin-top: 7%;
+  }
+  .main-image {
+    order: 2;
+  }
+}

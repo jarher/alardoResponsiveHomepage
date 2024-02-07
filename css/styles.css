@@ -1,21 +1,72 @@
-@font-face {
-    font-family: "Poppins";
-    src: url("../fonts/Poppins-Regular.ttf");
-}
 @import url("./colors.css");
+@import url("./header.css");
+@import url("./mainSection.css");
 
-*{
-    box-sizing: border-box;
+@font-face {
+  font-family: "Poppins";
+  src: url("../fonts/Poppins-Regular.ttf");
 }
-html{
-    scroll-behavior: smooth;
-    font-size: 16px;
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
-body{
-    font-family: "Poppins";
-    font-size: 1.125rem;
+html {
+  scroll-behavior: smooth;
+  font-size: 16px;
 }
-.main-section{
-    display: flex;
-    flex-direction: column;
+body {
+  font-family: "Poppins";
+  font-size: 1.125rem;
+  transition: background 0.2s ease-in;
+}
+main {
+  margin: 0 26px;
+  padding-bottom: 20px;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+a {
+  text-decoration: none;
+}
+.dark-mode-theme,
+.dark-mode-theme .main-nav {
+  background-color: var(--Dark-blue);
+}
+.dark-mode-theme .logo-text,
+.dark-mode-theme .main-nav ul li a:focus,
+.dark-mode-theme .main-nav ul li a:hover,
+.dark-mode-theme .first-text,
+.dark-mode-theme .main-texts h1 {
+  color: var(--White);
+}
+.dark-mode-theme .main-description,
+.dark-mode-theme .requirements,
+.dark-mode-theme #menu-icon,
+.dark-mode-theme .close-icon {
+  color: var(--Dark-medium);
+}
+.dark-mode-theme .mode-icons-wrapper {
+  background-color: var(--Dark-gray);
+}
+.dark-mode-theme .dark-mode-wrapper {
+  background-color: var(--Pale-gray);
+}
+.dark-mode-theme .dark-mode-wrapper .dark-mode-icon {
+  color: var(--Dark-blue) !important;
+}
+.dark-mode-theme .light-mode-wrapper {
+  background-color: transparent;
+}
+.dark-mode-theme .light-mode-wrapper .light-mode-icon {
+  color: var(--Pale-gray) !important;
+}
+@media (min-width: 1024px) {
+  main {
+    margin: 20px 75px 0;
+  }
 }

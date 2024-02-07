@@ -16,37 +16,43 @@
     <header>
         <div class="logo-container">
             <div class="logo-wrapper">
-                <div class="square-blue"></div>
-                <div class="square-green"></div>
+                <div class="square square-blue"></div>
+                <div class="square square-green"></div>
             </div>
             <span class="logo-text">Alarado</span class="logo-text">
         </div>
         <div class="main-nav-container">
-            <span class="material-symbols-outlined">
+            <span class="material-symbols-outlined" id="menu-icon">
                 menu
             </span>
-            <nav class="main-nav">
-                <span class="material-symbols-outlined">
-                    close
-                </span>
-                <ul>
-                    <li><a href=""></a></li>
-                    <li><a href=""></a></li>
-                    <li><a href=""></a></li>
-                    <li><a href=""></a></li>
-                    <li>
-                        <div class="mode-icons-wrapper">
-                            <span class="material-symbols-outlined">
-                                nightlight
-                            </span>
-                            <div class="light-mode-wrapper">
-                                <span class="material-symbols-outlined">
-                                    light_mode
-                                </span>
+            <nav class="main-nav nav-collapse">
+                <div class="navbar-container">
+                    <span class="material-symbols-outlined close-icon">
+                        close
+                    </span>
+                    <ul>
+                        <li><a href="">About us</a></li>
+                        <li><a href="">Product</a></li>
+                        <li><a href="">Resource</a></li>
+                        <li><a href="">Contact</a></li>
+                        <li>
+                            <div class="mode-icons-wrapper">
+                                <div class="dark-mode-wrapper">
+                                    <span class="material-symbols-outlined dark-mode-icon">
+                                        nightlight
+                                    </span>
+                                </div>
+
+                                <div class="light-mode-wrapper">
+                                    <span class="material-symbols-outlined light-mode-icon">
+                                        light_mode
+                                    </span>
+                                </div>
                             </div>
-                        </div>
-                    </li>
-                </ul>
+                        </li>
+                    </ul>
+                </div>
+
             </nav>
         </div>
     </header>
@@ -54,7 +60,7 @@
     <main>
         <section class="main-section">
             <div class="main-texts">
-                <p>SIMPLE WAY TO COMMUNICATE</p>
+                <p class="first-text">&#128526; SIMPLE WAY TO COMMUNICATE</p>
                 <h1>Actions for accessibility in design</h1>
                 <p class="main-description">The fastest way to build and deploy websites with resusable components.</p>
                 <div class="main-links-wrapper">
@@ -91,7 +97,7 @@
         </section>
     </main>
 
-    <script src="script.js"></script>
+    <script src="./js/script.js"></script>
 </body>
 
 </html>
